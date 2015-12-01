@@ -1,0 +1,38 @@
+body {}
+
+.jumbotron {
+	background-color: #00ffff;
+	background-image: url(../img/earth.jpg);
+	background-size: cover;
+	background-position: center;
+	height:450px;
+}
+
+.imagepanel img {
+	width:200px;
+	height:208px;
+} 
+.img-thumbnail {
+	background-color: #00ff99;
+}
+.border {
+	border-top:1px solid #00ff99;
+	margin:20px 0px;
+}
+.footer {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+.imagepanel h3 {
+	border-radius: 3px;
+	background-color: #00ff99;
+}
+
+@?media (max-width:991px) {
+	.imagepanel {
+		border-top:1px solid #00ff99;
+		margin-top: 5px;
+		padding-top: 5px;
+	}
+
+}
