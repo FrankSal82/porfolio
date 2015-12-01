@@ -1,5 +1,10 @@
 body {}
 
+.logo {
+	width:100px;
+
+}
+
 .jumbotron {
 	background-color: #00ffff;
 	background-image: url(../img/earth.jpg);
