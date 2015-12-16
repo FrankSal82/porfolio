@@ -52,6 +52,9 @@ body p {
 	width:200px;
 	height:208px;
 }
+.imagepanel h3 {
+	margin-top: 0px;
+}
 .img-thumbnail {
 	background-color: #666666;
 	border: 1px solid #cccccc;
@@ -81,6 +84,13 @@ body p {
 	border-radius: 10px;
 
 }
+@media (max-width:410px) {
+	.suit-up {
+		display:none;
+	}
+}
+
+
 /*PROJECTS*/
 .projects img {
 	width: 50%;
