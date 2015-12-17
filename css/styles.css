@@ -52,9 +52,7 @@ body p {
 	width:200px;
 	height:208px;
 }
-.imagepanel h3 {
-	margin-top: 0px;
-}
+
 .img-thumbnail {
 	background-color: #666666;
 	border: 1px solid #cccccc;
@@ -76,7 +74,7 @@ body p {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #666666;
-	/*border: 1px solid #cccccc;*/
+	border: 1px solid #cccccc;
 }
 .call {
 	color: #fff;
@@ -84,9 +82,9 @@ body p {
 	border-radius: 10px;
 
 }
-@media (max-width:410px) {
-	.suit-up {
-		display:none;
+@media (min-width:767px) {
+	.imagepanel h3 {
+		margin: 0px;
 	}
 }
 
