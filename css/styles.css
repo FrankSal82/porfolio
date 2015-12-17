@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin+Dark:600);
 body p {
 	font-size: 20px;
 	font-weight: 400;
@@ -46,6 +47,7 @@ body p {
 }
 .jumbotron h1 {
 	top: 50px;
+	font-family: 'Palanquin Dark', monospace;
 }
 /*BUBBLE LINKS*/
 .imagepanel img {
@@ -94,12 +96,12 @@ body p {
 	width: 50%;
 	margin-top: 40px;
 }
-.projects h2 {
-
-
-}
-.projects a:hover {
-
+.geek {
+	color: #fff;
+	background-image: url(../img/shirt.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .petlogo2 {
 	background-color: #000;
