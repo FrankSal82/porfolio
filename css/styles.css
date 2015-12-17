@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Palanquin+Dark:600);
+@import url(https://fonts.googleapis.com/css?family=Palanquin+Dark:600|Roboto);
 body p {
 	font-size: 20px;
 	font-weight: 400;
+	font-family: 'Roboto', fantasy;
 }
 
 .logo {
@@ -54,7 +56,9 @@ body p {
 	width:200px;
 	height:208px;
 }
-
+.imagepanel p {
+	margin-top: 20px;
+}
 .img-thumbnail {
 	background-color: #666666;
 	border: 1px solid #cccccc;
@@ -94,20 +98,60 @@ body p {
 /*PROJECTS*/
 .projects img {
 	width: 50%;
-	margin-top: 40px;
+	margin-bottom: 40px;
 }
+.projects h2 {
+	margin-bottom: 20px;
+}
+
 .geek {
 	color: #fff;
 	background-image: url(../img/shirt.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	text-shadow: 1px 1px 5px #0a0a0a;
+	border-radius: 5px;
+}
+.selfie {
+	margin-top: 20px;
+}
+.self {
+	background-color: rgba(20, 20, 20, .6);
+
+  padding: 10px;
+	margin-bottom: 20px;
+  border-radius: 5px;
 }
 .petlogo2 {
 	background-color: #000;
 	border: 1px solid #cccccc;
 }
+#wufoo-zinwn5156y8km{
+    background-color:#fff;
+    border-top:3px solid #8dc63f;
+    border-bottom:3px solid #8dc63f;
+    border-radius:20px;
+    width:80%;
 
+}
+.mainbody {
+	background-color: #000;
+}
+.map {
+	margin-top:60px;
+	height:300px;
+
+}
+.map2 {
+	height: 300px;
+}
+.map iframe {
+	padding: 0px;
+}
+.contact {
+	margin-top: 100px;
+}
 /*VIDEO*/
 .video-container {
 	margin-top: 50px;
