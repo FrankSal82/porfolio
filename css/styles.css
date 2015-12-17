@@ -82,7 +82,7 @@ body p {
 	border-radius: 10px;
 
 }
-@media (min-width:767px) {
+@media (max-width:767px) {
 	.imagepanel h3 {
 		margin: 0px;
 	}
