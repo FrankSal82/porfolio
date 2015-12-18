@@ -84,9 +84,9 @@ body p {
 }
 .call {
 	color: #fff;
-	background-color: rgba(102, 102, 102, 0.5);
+	background-color: #666666;
 	border-radius: 10px;
-
+ /*rgba(102, 102, 102, 0.5);*/
 }
 @media (max-width:767px) {
 	.imagepanel h3 {
@@ -122,6 +122,10 @@ body p {
   padding: 10px;
 	margin-bottom: 20px;
   border-radius: 5px;
+}
+.btn-default {
+	color: #fff;
+	background-color: #990000;
 }
 .petlogo2 {
 	background-color: #000;
@@ -159,7 +163,13 @@ body p {
 	background-size: cover;
 	/*background-attachment: fixed;*/
 	background-position: center;
-	height:200px;
+	height:700px;
+}
+.crowd h1 {
+	color: #fff;
+	font-size: 63px;
+	text-shadow: 1px 1px 5p	x #0a0a0a;
+
 }
 /*VIDEO*/
 .video-container {
