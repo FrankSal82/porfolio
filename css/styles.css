@@ -167,8 +167,8 @@ body p {
 }
 #wufoo-zinwn5156y8km{
     background-color:#fff;
-    border-top:3px solid #8dc63f;
-    border-bottom:3px solid #8dc63f;
+    /*border-top:3px solid #8dc63f;*/
+    /*border-bottom:3px solid #8dc63f;*/
     border-radius:20px;
     width:80%;
 }
@@ -199,7 +199,7 @@ body p {
 /*FOOTER-------------------------------------------------------*/
 .social a {
 	color:#fff;
-	
+
 }
 @media (max-width:768px){
 	.social {
