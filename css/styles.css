@@ -14,7 +14,7 @@ body p {
 .logobox {
 	background-color: #fff;
 }
-/*NAV BAR*/
+/*NAV BAR--------------------------------------------------------------*/
 .navbar-default {
 	background-color: #fff;
 	/*border-color: #fff;*/
@@ -37,7 +37,7 @@ body p {
     background-color: rgba (17, 17, 17, .2);
 }
 
-/*JUMBOTRON*/
+/*JUMBOTRON--------------------------------------------------------*/
 .jumbotron {
 	color:#fff;
 	background-color: #00ffff;
@@ -51,7 +51,7 @@ body p {
 	top: 50px;
 	font-family: 'Palanquin Dark', monospace;
 }
-/*BUBBLE LINKS*/
+/*BUBBLE LINKS---------------------------------------------------------*/
 .imagepanel img {
 	width:200px;
 	height:208px;
@@ -95,13 +95,14 @@ body p {
 }
 
 
-/*PROJECTS*/
+/*PROJECTS SECTION------------------------------------------------*/
 .projects img {
 	width: 50%;
 	margin-bottom: 40px;
 }
 .projects h2 {
 	margin-bottom: 20px;
+	padding: 5px;
 }
 
 .geek {
@@ -131,13 +132,23 @@ body p {
 	background-color: #000;
 	border: 1px solid #cccccc;
 }
-#wufoo-zinwn5156y8km{
-    background-color:#fff;
-    border-top:3px solid #8dc63f;
-    border-bottom:3px solid #8dc63f;
-    border-radius:20px;
-    width:80%;
+/*INSPIRE SECTION---------------------------------*/
+#inspire h2 {
+	margin-top: 0px;
+}
+#inspire p {
+	margin-bottom: 20px;
+}
+.bitwise {
+	margin-top: 20px;
+}
+#inspire a {
+	border-radius: 100px;
+}
 
+/*CONTACT PAGE----------------------------------------*/
+.contact {
+	margin-top: 100px;
 }
 .mainbody {
 	background-color: #fff;
@@ -153,11 +164,16 @@ body p {
 }
 .map iframe {
 	padding: 0px;
+}
+#wufoo-zinwn5156y8km{
+    background-color:#fff;
+    border-top:3px solid #8dc63f;
+    border-bottom:3px solid #8dc63f;
+    border-radius:20px;
+    width:80%;
+}
 
-}
-.contact {
-	margin-top: 100px;
-}
+/*CROWD SECTION--------------------------------------------------*/
 .crowd {
 	background-image: url(../img/crowd.jpg);
 	background-size: cover;
@@ -166,9 +182,11 @@ body p {
 	height:700px;
 }
 .crowd h1 {
+
 	color: #fff;
 	font-size: 63px;
-	text-shadow: 1px 1px 5p	x #0a0a0a;
+	text-shadow: 1px 1px 5px #0a0a0a;
+	margin: 0 auto;
 
 }
 /*VIDEO*/
